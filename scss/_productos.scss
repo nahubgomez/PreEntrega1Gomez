@@ -1,0 +1,58 @@
+/*PRODUCTOS*/
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    flex-direction: row;
+}
+
+.btn {
+    background-color: $color-rojo;
+    border: solid black 0px;
+    border-radius: 10px;
+}
+
+.card-title {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tituloCamiones {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #052858;
+    text-align: center;
+    padding:20px;
+}
+
+.tituloDos {
+    background-color: #052858;
+    color: rgb(0, 0, 0);
+    border: 10px;
+    border-radius: 30px;
+    margin: 20px 0px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.contenedorCamiones {
+    margin: 50px;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.imgCamiones1,
+.imgCamiones2,
+.imgCamiones3 {
+    width: 800px;
+    height: 600px;
+}
